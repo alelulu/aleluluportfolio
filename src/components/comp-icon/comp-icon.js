@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './comp-icon.css'
 
-
 class Icon extends Component{
   render(){
 	  return (
