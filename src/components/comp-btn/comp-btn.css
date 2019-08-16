@@ -1,0 +1,21 @@
+.btn-container {
+  width: 200px;
+  height: 27px;
+  margin: 15px;
+}
+.col-title {
+  border: 1px solid #016eac;
+  border-right: 0px;
+  background-color: #ffacbd;
+  color: #ffffff;
+}
+.col-arrow {
+  border: 1px solid #016eac;
+  border-radius: 0px 8px 8px 0px;
+  background-color: #ffacbd;
+  color: #ffffff;
+}
+.a-title{
+  margin: 0;
+  font-size: 15px;
+}

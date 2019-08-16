@@ -6,21 +6,22 @@ import Icon from '../comp-icon/comp-icon';
 class Skills extends Component{
   render(){
 	  return (
-      <div className="skills-container">
+      <div className="skills-container container">
 				<div className="row">
-					<Icon iconclass="fab fa-html5" title="HTML5"/>
-					<Icon iconclass="fab fa-js" title="JavaScript"/>
-					<Icon iconclass="fab fa-css3-alt" title="CSS3"/>
+
+					<a href="#"><Icon iconclass="fab fa-html5" title="HTML5"/></a>
+					<a href="#"><Icon iconclass="fab fa-js" title="JavaScript"/></a>
+					<a href="#"><Icon iconclass="fab fa-css3-alt" title="CSS3"/></a>
 				</div>
 				<div className="row">
-					<Icon iconclass="fab fa-node-js" title="NodeJS"/>
-					<Icon iconclass="fab fa-npm" title="npm"/>
-					<Icon iconclass="fab fa-bootstrap" title="Bootstrap"/>
+					<a href="#"><Icon iconclass="fab fa-node-js" title="NodeJS"/></a>
+					<a href="#"><Icon iconclass="fab fa-npm" title="npm"/></a>
+					<a href="#"><Icon iconclass="fab fa-bootstrap" title="Bootstrap"/></a>
 				</div>
 				<div className="row">
-					<Icon iconclass="fab fa-react" title="React"/>
-					<Icon iconclass="fab fa-git-alt" title="Git"/>
-					<Icon iconclass="fab fa-adobe" title="Adobe-Photoshop"/>
+					<a href="#"><Icon iconclass="fab fa-react" title="React"/></a>
+					<a href="#"><Icon iconclass="fab fa-git-alt" title="Git"/></a>
+					<a href="#"><Icon iconclass="fab fa-adobe" title="Adobe-Photoshop"/></a>
 				</div>
       </div>
     )

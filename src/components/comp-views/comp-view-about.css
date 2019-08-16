@@ -1,0 +1,20 @@
+.view-about-container {
+  background-color: #ffeff2;
+  color: #5c5c5c;
+  width: 90%;
+  border: #2196F3 1px solid;
+  border-radius: 8px;
+  padding: 10px;
+}
+.red-title {
+  color: #f85565;
+}
+.blue-title {
+  color: #2196F3;
+}
+.centering {
+  text-align: center;
+}
+.row-to-center {
+  text-align: center
+}
