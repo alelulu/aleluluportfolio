@@ -1,0 +1,8 @@
+.project-img {
+    width: 125px
+}
+.project-container {
+    border: 1px #f85565 solid;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}

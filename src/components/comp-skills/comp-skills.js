@@ -8,7 +8,6 @@ class Skills extends Component{
 	  return (
       <div className="skills-container container">
 				<div className="row">
-
 					<a href="#"><Icon iconclass="fab fa-html5" title="HTML5"/></a>
 					<a href="#"><Icon iconclass="fab fa-js" title="JavaScript"/></a>
 					<a href="#"><Icon iconclass="fab fa-css3-alt" title="CSS3"/></a>

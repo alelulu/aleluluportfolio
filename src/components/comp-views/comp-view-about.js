@@ -5,7 +5,7 @@ import Icon from '../comp-icon/comp-icon'
 class ViewAbout extends Component{
   render(){
 	  return (
-      <div className="view-about-container container">
+      <div className="view-container container">
         <div className="row">
           <div className="col">
             <h3 className="red-title">ALEJANDRA SILVA SUAZO</h3>

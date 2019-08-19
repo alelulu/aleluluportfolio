@@ -5,12 +5,12 @@ import Img from './components/comp-img/comp-img'
 import Menu from './components/comp-menu/comp-menu'
 import Skills from './components/comp-skills/comp-skills'
 import ViewAbout from './components/comp-views/comp-view-about'
+import ViewProjects from './components/comp-views/comp-view-projects';
 
 function App() {
   return (
     <div className="App container">
       <div className=" window-content">
-    
         <div className="row header navbar navbar-fixed-top">
           <h6 className="title"><img alt="cat-logo" src="https://i.ibb.co/PTYD9dS/Cat.png"/> ALELULU/FRONT-END DEVELOPER</h6>
         </div>
@@ -25,14 +25,14 @@ function App() {
           </div>
         </div>
         <div className="row avatar">
-          
         </div>
         <div className="row body">
           <div className="col-sm-4">
             <Menu/>
           </div>
-          <div className="col-sm-8">
+          <div className="col-sm-8 views">
             <ViewAbout/>
+            <ViewProjects/>
           </div>
         </div>
       </div>
