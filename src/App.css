@@ -49,7 +49,12 @@
   margin: 0;
   color: #f85565;
 }
-
+.col-title {
+  text-align: left;
+}
+.front {
+  display: inline
+}
 /* switch */
 .lenguage {
   font-size: 16px;
@@ -120,4 +125,10 @@ input:checked + .slider:before {
 .views {
   height: 80%;
   overflow: auto;
+}
+
+@media (max-width: 600px) {
+  .front {
+    display: none;
+  }
 }

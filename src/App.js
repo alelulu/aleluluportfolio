@@ -14,17 +14,10 @@ function App() {
       <div className="window-content">
         <div className="fluid-container">
           <div className="row header navbar navbar-fixed-top">
-            <h6 className="title"><img alt="cat-logo" src="https://i.ibb.co/PTYD9dS/Cat.png"/> ALELULU/FRONT-END DEVELOPER</h6>
-          </div>
-        </div>
-        <div className="container">
-          <div className="row nav">
-            <div className="col">
-              <Menu/>
+            <div className="col col-title">
+              <h6 className="title"><img alt="cat-logo" src="https://i.ibb.co/PTYD9dS/Cat.png"/><span> ALELULU<span className="front">/FRONT-END DEVELOPER</span></span></h6>
             </div>
-          </div>
-          <div className="row mt-2">
-            <div className="col-5 offset-7 col-md-3 offset-md-9">
+            <div className="">
               <span className="mr-1 lenguage">Es</span> 
               <label className="switch">
                 <input type="checkbox" checked/>
@@ -33,17 +26,21 @@ function App() {
               <span className="ml-1 lenguage">En</span>
             </div>
           </div>
-
+        </div>
+        <div className="container">
+          <div className="row nav">
+            <div className="col">
+              <Menu/>
+            </div>
+          </div>
           <div className="row body">
             <div className="col-sm-12 views">
-              
-                <Switch>
-                  <Route exact path='/' component={ViewAbout}/>
-                  <Route path='/about' component={ViewAbout}/>
-                  <Route path='/projects' component={ViewProjects}/>
-                  <Route path='/skills' component={ViewSkills}/>
-                </Switch>
-              
+              <Switch>
+                <Route exact path='/' component={ViewAbout}/>
+                <Route path='/about' component={ViewAbout}/>
+                <Route path='/projects' component={ViewProjects}/>
+                <Route path='/skills' component={ViewSkills}/>
+              </Switch>
             </div>
           </div>
         </div>
