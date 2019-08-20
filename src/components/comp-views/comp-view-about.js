@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './comp-view-about.css';
-import Icon from '../comp-icon/comp-icon';
 import Media from '../comp-media/comp-media';
 import Img from '../comp-img/comp-img'
 

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './comp-menu.css';
-import Img from '../comp-img/comp-img';
 import Btn from '../comp-btn/comp-btn';
 import { Link } from 'react-router-dom';
 

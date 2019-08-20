@@ -1,17 +1,17 @@
 .view-container {
-  background-color: #ffeff2;
+  background-image: url("../../assets/img/background.png");
   color: #5c5c5c;
   width: 90%;
-  border: #2196F3 1px solid;
+  border: #6dc9c9 1px solid;
   border-radius: 8px;
-  padding: 10px;
+  padding: 2rem;
   margin-bottom: 2rem;
 }
 .red-title {
-  color: #f85565;
+  color: #ff6f69;
 }
 .blue-title {
-  color: #2196F3;
+  color: #6dc9c9;
 }
 .centering {
   text-align: center;

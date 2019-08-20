@@ -1,8 +1,14 @@
 .project-img {
     width: 125px
 }
+.project-title {
+    color: #ff6f69;
+}
+
 .project-container {
-    border: 1px #f85565 solid;
+    background-color: #fff4df;
+    border: 1px #6dc9c9 solid;
     border-radius: 5px;
-    margin-bottom: 2rem;
+    margin: 2rem;
+    padding: 20px;
 }

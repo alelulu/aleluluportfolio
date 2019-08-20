@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-
-import Img from './components/comp-img/comp-img'
+import { Switch, Route } from "react-router-dom";
 import Menu from './components/comp-menu/comp-menu'
 import ViewAbout from './components/comp-views/comp-view-about'
 import ViewProjects from './components/comp-views/comp-view-projects';

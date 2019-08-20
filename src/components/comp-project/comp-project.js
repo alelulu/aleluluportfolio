@@ -5,12 +5,12 @@ class Project extends Component{
   render(){
 	  return (
       <div className="project-container">
-				<h5>{this.props.title}</h5>
+				<h4 className="project-title">{this.props.title}</h4>
 				<img className="project-img" src={this.props.src} alt={this.props.alt}/>
 				<p>{this.props.description}</p>
 				<a target="_blank" href={this.props.linkdeploy}>Deploy</a>
 				<br/>
-				<a target="_blank" href={this.props.linkgithub}>Github Repository</a>
+				<a className="project-github" target="_blank" href={this.props.linkgithub}>Github Repository</a>
       </div>
     )
   }

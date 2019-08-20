@@ -6,10 +6,10 @@ class ViewSkills extends Component{
   render(){
 	  return (
       <div className="view-container container">
-          <div className="row center-pls">
-            <div className="col center-pls"><Icon iconclass="fab fa-html5" title="HTML5"/></div>
-            <div className="col center-pls"><Icon iconclass="fab fa-js" title="JavaScript"/></div>
-            <div className="col center-pls"><Icon iconclass="fab fa-css3-alt" title="CSS3"/></div>
+          <div className="row">
+            <div className="col"><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"><Icon iconclass="fab fa-html5" title="HTML5"/></a></div>
+            <div className="col"><a href="https://www.javascript.com/"><Icon iconclass="fab fa-js" title="JavaScript"/></a></div>
+            <div className="col"><a href="#"><Icon iconclass="fab fa-css3-alt" title="CSS3"/></a></div>
           </div>
           <div className="row">
             <div className="col"><a href="#"><Icon iconclass="fab fa-node-js" title="NodeJS"/></a></div>
