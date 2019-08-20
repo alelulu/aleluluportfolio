@@ -11,3 +11,15 @@
 [debug] [2019-08-16T18:27:23.108Z] [iam] checking project alejandra-silva for permissions ["firebase.projects.get"]
 [debug] [2019-08-16T18:27:23.109Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/alejandra-silva:testIamPermissions  
 
+[debug] [2019-08-16T18:27:24.140Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-16T18:27:24.141Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/alejandra-silva  
+ 
+[debug] [2019-08-16T18:27:25.239Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Ale\Desktop\Proyectos Laboratoria\Portafolio\Portafolio\alelulu'...
+[info] 
+[debug] [2019-08-16T18:27:25.251Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/alejandra-silva/webApps/-/config  
+ 
+[debug] [2019-08-16T18:27:26.407Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: build
+[info] +  hosting: Local server: http://localhost:5000

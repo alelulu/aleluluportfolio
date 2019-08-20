@@ -7,7 +7,7 @@ class Img extends Component{
       <div className="img-container container">
         <div className="row">
           <div className="col">
-            <img id="avatar-img" src="https://i.kym-cdn.com/entries/icons/medium/000/026/489/crying.jpg" alt="Foto Ale"/>
+            <img id="avatar-img" src="https://i.ibb.co/Q99yp60/lale.png" alt="Foto Ale"/>
           </div>
         </div>
       </div>

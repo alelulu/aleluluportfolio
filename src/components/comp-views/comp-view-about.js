@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './comp-view-about.css';
-import Icon from '../comp-icon/comp-icon'
+import Icon from '../comp-icon/comp-icon';
+import Media from '../comp-media/comp-media';
+import Img from '../comp-img/comp-img'
 
 class ViewAbout extends Component{
   render(){
@@ -8,8 +10,9 @@ class ViewAbout extends Component{
       <div className="view-container container">
         <div className="row">
           <div className="col">
-            <h3 className="red-title">ALEJANDRA SILVA SUAZO</h3>
-            <h4 className="blue-title">FRONT-END DEVELOPER</h4>
+            <h3 className="red-title mb-4 mt-4">ALEJANDRA SILVA SUAZO</h3>
+            <Img/>
+            <h4 className="blue-title mt-4">FRONT-END DEVELOPER</h4>
             <p>I'm looking forward to become
             a great web developer, puting part of my
             soul in every line of code.</p>
@@ -18,7 +21,7 @@ class ViewAbout extends Component{
           </div>
         </div>
         <div className="row row-to-center">
-          <div className="col-3 centering">
+          {/* <div className="col-3 centering">
             <a href="https://www.linkedin.com/in/alejandra-silva-suazo/"><Icon iconclass="fab fa-linkedin" title="LinkedIn"/></a>
           </div>
           <div className="col-3 centering">
@@ -29,7 +32,8 @@ class ViewAbout extends Component{
           </div>
           <div className="col-3 centering">
             <a href="https://alewannacake.tumblr.com/"><Icon iconclass="fab fa-tumblr-square" title="Tumblr"/></a>
-          </div>
+          </div> */}
+          <Media />
         </div>
       </div>
     )

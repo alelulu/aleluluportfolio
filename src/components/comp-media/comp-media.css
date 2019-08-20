@@ -1,9 +1,7 @@
-.media-container {
+.centered {
   text-align: center;
 }
-.col-to-center {
-  text-align: center !important
-}
+
 .a-to-center {
-  text-align: center
+  width: 30px;
 }
