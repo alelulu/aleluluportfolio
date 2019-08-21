@@ -14,8 +14,8 @@ class ViewProjects extends Component{
         </div>
         <div className="row row-to-center">
           <div className="col-sm-12 col-md-6">
-            <Project title="The Simpsons Trivia Game" alt="SImpsons Trivia image" src='https://i.ibb.co/Gcw0pJ9/homer.png' 
-            description="Trivia about the famous TV Show The Simpsons. After the user enters its name there are three categories to play." 
+            <Project title="The Simpsons Trivia Game" alt="Simpsons Trivia image" src='https://i.ibb.co/Gcw0pJ9/homer.png' 
+            description="Trivia about the TV Show. After the user enters its name there are three categories to play." 
             linkdeploy="https://alelulu.github.io/Trivia/index.html" linkgithub="https://github.com/alelulu/Trivia"/>
           </div>
           <div className="col-sm-12 col-md-6">

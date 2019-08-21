@@ -12,7 +12,7 @@
   border: 1px solid #dddddd;
 /*   background-image: url("./assets/img/background.png"); */
   padding: 0;
-  background-color: #fff4df;
+  background-color: #ffe1e0;
 }
 .window-content::before {
   content: " ";
@@ -129,10 +129,11 @@ input:checked + .slider:before {
 }
 
 a {
-  color: #6dc9c9;
+  color: #ff6f69;
 }
 a:hover {
-  color: #6dc9c9;
+  color: #ff6f69;
+  animation-direction: reverse
 }
 
 @media (max-width: 600px) {
