@@ -1,0 +1,45 @@
+{
+  "language": {
+    "header": {
+      "title": "/DESARROLLADORA FRONT-END"
+    },
+    "menu": {
+      "about": "Sobre mí",
+      "projects": "Proyectos",
+      "skills": "Habilidades"
+    },
+    "about": {
+      "title": "DESARROLLADORA FRONT-END",
+      "description": "Busco convertirme en una gran desarrolladora web, poniendo parte de mi alma en cada línea de código.",
+      "subtitle": "Puedes contactarme directamente a mi email:"
+    },
+    "projects": {
+      "title": "Proyectos",
+      "description": "Estos son algunos de mis queridos proyectos",
+      "projects": [
+        {
+          "title": "Trivia Los Simpsons",
+          "description": "Trivia sobre Los Simpsons. Después de que el usuario ingresa su nombre, encuentra tres categorías para jugar."
+        },
+        {
+          "title": "Data-Lovers",
+          "description": "Wikidex es una aplicación web que permite al usuario filtrar y ordenar una lista de 151 Pokémon de la región de Kanto."
+        },
+        {
+          "title": "MD-Links",
+          "description": "Librería de código abierto que le permite al programador conocer el estado de los enlaces dentro de un archivo con extensión .MD"
+        },
+        {
+          "title": "SVKH",
+          "description": "Hecha como una \"Single Page Application\" en Javascript puro, este es un sitio web para visibilizar este raro síndrome en Chile."
+        },
+        {
+          "title": "Google Maps",
+          "description": "Aplicación web que permite al usuario localizar tiendas en Ciudad de México. También podrá añadir y quitar tiendas favoritas."
+        }
+      ],
+      "deploy": "Despliegue",
+      "repository": "Repositorio de Github"
+    }
+  }
+}

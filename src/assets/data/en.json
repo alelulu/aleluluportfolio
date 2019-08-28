@@ -1,0 +1,45 @@
+{
+  "language": {
+    "header": {
+      "title": "/FRONT-END DEVELOPER"
+    },
+    "menu": {
+      "about": "About",
+      "projects": "Projects",
+      "skills": "Skills"
+    },
+    "about": {
+      "title": "FRONT-END DEVELOPER",
+      "description": "I'm looking forward to become a great web developer, puting part of my soul in every line of code.",
+      "subtitle": "You can contact me directly via:"
+    },
+    "projects": {
+      "title": "Projects",
+      "description": "These are some of my beloved projects",
+      "projects": [
+        {
+          "title": "The Simpsons Trivia Game",
+          "description": "Trivia about the TV Show. After the user enters its name there are three categories to play."
+        },
+        {
+          "title": "Data-Lovers",
+          "description": "Wikidex is a web application that allows the user to filter and order a list of 151 Pokemon from Kanto region."
+        },
+        {
+          "title": "MD-Links",
+          "description": "Open source code library made to know the status of links inside a file with .md extension."
+        },
+        {
+          "title": "SVKH",
+          "description": "Made as a vanilla Javascript SPA, this is a web site to make more visible this rare syndrome in Chile."
+        },
+        {
+          "title": "Google Maps",
+          "description": "Web application that allows the user to localize stores in Mexico City. The user can also add the store to favorites and delete it."
+        }
+      ],
+      "deploy": "Deploy",
+      "repository": "Github Repository"
+    }
+  }
+}

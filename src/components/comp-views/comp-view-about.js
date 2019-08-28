@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import './comp-view-about.css';
 import Media from '../comp-media/comp-media';
-import Img from '../comp-img/comp-img'
+import Img from '../comp-img/comp-img';
 
 class ViewAbout extends Component{
+
   render(){
 	  return (
       <div className="view-container container">
@@ -11,11 +12,9 @@ class ViewAbout extends Component{
           <div className="col">
             <h3 className="red-title mb-4 mt-4">ALEJANDRA SILVA SUAZO</h3>
             <Img/>
-            <h4 className="blue-title mt-4">FRONT-END DEVELOPER</h4>
-            <p>I'm looking forward to become
-            a great web developer, puting part of my
-            soul in every line of code.</p>
-            <h5 className="blue-title">You can contact me directly via</h5>
+            <h4 className="blue-title mt-4">{this.props.language.language.about.title}</h4>
+            <p>{this.props.language.language.about.description}</p>
+            <h5 className="blue-title">{this.props.language.language.about.subtitle}</h5>
             <h6 className="red-title">ale.silvasuazo@gmail.com</h6>
           </div>
         </div>

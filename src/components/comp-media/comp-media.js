@@ -3,7 +3,8 @@ import './comp-media.css';
 import Icon from '../comp-icon/comp-icon';
 
 
-class Media extends Component{
+class Media extends Component {
+   
   render(){
 	  return (
       <div className="media-container container">

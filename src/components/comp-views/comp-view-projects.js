@@ -8,34 +8,44 @@ class ViewProjects extends Component{
       <div className="view-container container">
         <div className="row">
           <div className="col">
-            <h3 className="red-title mt-3">Projects</h3>
-            <p>These are some of my beloved projects</p>
+            <h3 className="red-title mt-3">{this.props.language.language.projects.title}</h3>
+            <p>{this.props.language.language.projects.description}</p>
           </div>
         </div>
         <div className="row row-to-center">
           <div className="col-sm-12 col-md-6">
-            <Project title="The Simpsons Trivia Game" alt="Simpsons Trivia image" src='https://i.ibb.co/Gcw0pJ9/homer.png' 
-            description="Trivia about the TV Show. After the user enters its name there are three categories to play." 
+            <Project title={this.props.language.language.projects.projects[0].title} alt="Simpsons Trivia image" src='https://i.ibb.co/Gcw0pJ9/homer.png' 
+            description={this.props.language.language.projects.projects[0].description}
+            deploy={this.props.language.language.projects.deploy}
+            repo={this.props.language.language.projects.repository}
             linkdeploy="https://alelulu.github.io/Trivia/index.html" linkgithub="https://github.com/alelulu/Trivia"/>
           </div>
           <div className="col-sm-12 col-md-6">
-            <Project title="Data-Lovers" alt="Pokemon image" src='https://i.ibb.co/PQ2YxDX/pokeball.png' 
-            description="Wikidex is a web application that allows the user to filter and order a list of 151 Pokemon from Kanto region." 
+            <Project title={this.props.language.language.projects.projects[1].title} alt="Pokemon image" src='https://i.ibb.co/PQ2YxDX/pokeball.png' 
+            description={this.props.language.language.projects.projects[1].description}
+            deploy={this.props.language.language.projects.deploy}
+            repo={this.props.language.language.projects.repository}
             linkdeploy="https://alelulu.github.io/SCL009-data-lovers/src/index.html" linkgithub="https://github.com/alelulu/SCL009-data-lovers"/>
           </div>
           <div className="col-sm-12 col-md-6">
-            <Project title="MD-Links" alt="Console image" src='https://i.ibb.co/nMdzsvG/mdlinks.png' 
-            description="Open source code library made to know the status of links inside a file with .md extension. " 
+            <Project title={this.props.language.language.projects.projects[2].title} alt="Console image" src='https://i.ibb.co/nMdzsvG/mdlinks.png' 
+            description={this.props.language.language.projects.projects[2].description}
+            deploy={this.props.language.language.projects.deploy}
+            repo={this.props.language.language.projects.repository}
             linkdeploy="https://www.npmjs.com/package/alelulu-md-links" linkgithub="https://github.com/alelulu/SCL009-md-links"/>
           </div>
           <div className="col-sm-12 col-md-6">
-            <Project title="SVKH" alt="SVKH image" src='https://i.ibb.co/svCntZZ/svkh.png' 
-            description="Made as a vanilla Javascript SPA, this is a web site to make more visible this rare syndrome in Chile." 
+            <Project title={this.props.language.language.projects.projects[3].title} alt="SVKH image" src='https://i.ibb.co/svCntZZ/svkh.png' 
+            description={this.props.language.language.projects.projects[3].description}
+            deploy={this.props.language.language.projects.deploy}
+            repo={this.props.language.language.projects.repository}
             linkdeploy="https://sindrome-vkh.firebaseapp.com/" linkgithub="https://github.com/alelulu/SVKH-Chile"/>
           </div>
           <div className="col-sm-12 col-md-6">
-            <Project title="Google Maps" alt="Map image" src='https://i.ibb.co/pLCqryr/map.png' 
-            description="Web application that allows the user to localize stores in Mexico City. The user can also add the store to favorites and delete it." 
+            <Project title={this.props.language.language.projects.projects[4].title} alt="Map image" src='https://i.ibb.co/pLCqryr/map.png' 
+            description={this.props.language.language.projects.projects[4].description}
+            deploy={this.props.language.language.projects.deploy}
+            repo={this.props.language.language.projects.repository}
             linkdeploy="https://mexico-stores.herokuapp.com/" linkgithub="https://github.com/alelulu/generation-take-home-intern"/>
           </div>
         </div>

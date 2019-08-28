@@ -8,9 +8,9 @@ class Project extends Component{
 				<h4 className="project-title">{this.props.title}</h4>
 				<img className="project-img" src={this.props.src} alt={this.props.alt}/>
 				<p>{this.props.description}</p>
-				<a target="_blank" href={this.props.linkdeploy}>Deploy</a>
+				<a target="_blank" href={this.props.linkdeploy}>{this.props.deploy}</a>
 				<br/>
-				<a className="project-github" target="_blank" href={this.props.linkgithub}>Github Repository</a>
+				<a className="project-github" target="_blank" href={this.props.linkgithub}>{this.props.repo}</a>
       </div>
     )
   }
