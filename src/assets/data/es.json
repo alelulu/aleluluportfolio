@@ -10,7 +10,7 @@
     },
     "about": {
       "title": "DESARROLLADORA FRONT-END",
-      "description": "Busco convertirme en una gran desarrolladora web, poniendo parte de mi alma en cada línea de código.",
+      "description": "Busco convertirme en una gran desarrolladora web, poniendo parte de mí en cada línea de código.",
       "subtitle": "Puedes contactarme directamente a mi email:"
     },
     "projects": {
@@ -40,6 +40,10 @@
       ],
       "deploy": "Despliegue",
       "repository": "Repositorio de Github"
+    },
+    "skills": {
+      "title": "Habilidades",
+      "description": "Estas son algunas de las tecnologías con las que he estado trabajando desde que comencé con el desarrollo web."
     }
   }
 }

@@ -1,14 +1,25 @@
+@font-face { font-family: "pix"; src: url('https://dl.dropboxusercontent.com/s/68bdyrv4fsayhg8/04B_03__.TTF'); }
+
 .project-img {
     width: 125px
 }
 .project-title {
     color: #ff6f69;
+    font-family: pix;
 }
 
 .project-container {
     background-color: #ffe1e0;
     border: 1px #6dc9c9 solid;
     border-radius: 5px;
-    margin: 2rem;
     padding: 20px;
+    width: 90%;
+    margin-left: 21px;
+    margin-bottom: 2rem
 }
+
+@media (max-width: 600px) {
+    .project-container {
+        margin-left: 13px;
+    }
+  }

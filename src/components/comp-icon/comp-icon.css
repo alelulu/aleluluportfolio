@@ -4,8 +4,10 @@
     height: 30px;
     width: 30px;
     background-color: #ffffff;
-    margin: 2px;
     text-align: center;
+    margin: 0px !important;
+    flex: 1;
+    flex-direction: row
 }
 i {
     padding-top: 5px;

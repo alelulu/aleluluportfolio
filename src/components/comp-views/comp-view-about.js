@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './comp-view-about.css';
-import Media from '../comp-media/comp-media';
 import Img from '../comp-img/comp-img';
 
 class ViewAbout extends Component{
@@ -14,24 +13,23 @@ class ViewAbout extends Component{
             <Img/>
             <h4 className="blue-title mt-4">{this.props.language.language.about.title}</h4>
             <p>{this.props.language.language.about.description}</p>
-            <h5 className="blue-title">{this.props.language.language.about.subtitle}</h5>
+            <h5 className="contact blue-title">{this.props.language.language.about.subtitle}</h5>
             <h6 className="red-title">ale.silvasuazo@gmail.com</h6>
           </div>
         </div>
-        <div className="row row-to-center">
-          {/* <div className="col-3 centering">
-            <a href="https://www.linkedin.com/in/alejandra-silva-suazo/"><Icon iconclass="fab fa-linkedin" title="LinkedIn"/></a>
+        <div className="row media-container">
+          <div className="col-3">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alejandra-silva-suazo/"><i className="fab fa-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin"></i></a>
           </div>
-          <div className="col-3 centering">
-            <a href="https://github.com/alelulu"><Icon iconclass="fab fa-github" title="GitHub"/></a>
+          <div className="col-3 centering-col">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/alelulu"><i className="fab fa-github" data-toggle="tooltip" data-placement="top" title="Github"></i></a>
           </div>
-          <div className="col-3 centering">
-            <a href="https://www.instagram.com/alelulu_/"><Icon iconclass="fab fa-instagram" title="Instagram"/></a>
+          <div className="col-3 centering-col">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/alelulu_/"><i className="fab fa-instagram" data-toggle="tooltip" data-placement="top" title="Instagram"></i></a>
           </div>
-          <div className="col-3 centering">
-            <a href="https://alewannacake.tumblr.com/"><Icon iconclass="fab fa-tumblr-square" title="Tumblr"/></a>
-          </div> */}
-          <Media />
+          <div className="col-3 centering-col">
+            <a target="_blank" rel="noopener noreferrer" href="https://alewannacake.tumblr.com/"><i className="fab fa-tumblr-square" data-toggle="tooltip" data-placement="top" title="Tumblr"></i></a>
+          </div>
         </div>
       </div>
     )

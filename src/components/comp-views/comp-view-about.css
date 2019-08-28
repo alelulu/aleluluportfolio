@@ -1,17 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@font-face { font-family: "pix"; src: url('https://dl.dropboxusercontent.com/s/68bdyrv4fsayhg8/04B_03__.TTF'); }
+
 .view-container {
   background-image: url("../../assets/img/background.png");
   color: #5c5c5c;
   width: 90%;
   border: #6dc9c9 1px solid;
   border-radius: 8px;
-  padding: 2rem;
   margin-bottom: 2rem;
+  font-family: 'VT323', monospace;
+  font-size: 20px
 }
 .red-title {
+  font-family: pix;
   color: #ff6f69;
 }
 .blue-title {
   color: #6dc9c9;
+  font-family: pix;
 }
 .centering {
   text-align: center;
@@ -21,4 +28,14 @@
 }
 .center-pls {
   text-align: center
+}
+.contact {
+  font-family: 'VT323', monospace;
+}
+.media-container {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.fab {
+  font-size: 30px
 }

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Switch, Route } from "react-router-dom";
-import Menu from './components/comp-menu/comp-menu'
+import Menu from './components/comp-menu/comp-menu';
+import { Link } from 'react-router-dom';
 import ViewAbout from './components/comp-views/comp-view-about'
 import ViewProjects from './components/comp-views/comp-view-projects';
 import ViewSkills from './components/comp-views/comp-view-skills';
@@ -58,9 +59,26 @@ class App extends Component {
             </div>
           </div>
           <div className="container">
-            <div className="row nav">
-              <div className="col">
-                <Menu language={this.state.language}/>
+            <div className="menu-container container">
+              <div className="row nav-row">
+                <div className="col-sm-4 col-md-2 btn-container">
+                  <Link to="/about">
+                    <img alt="About" src="https://i.ibb.co/T1FsWfX/home.png" className="nav-icon"/>
+                    <p className="nav-title">{this.state.language.language.menu.about}</p>
+                  </Link>
+                </div>
+                <div className="col-sm-4 col-md-2 btn-container">
+                  <Link to="/projects">
+                    <img alt="Projects" src="https://i.ibb.co/tPLBD8r/projects.png" className="nav-icon"/>
+                    <p className="nav-title">{this.state.language.language.menu.projects}</p>
+                  </Link>
+                </div>
+                <div className="col-sm-4 col-md-2 btn-container">
+                  <Link to="/skills">
+                    <img alt="Skills" src="https://i.ibb.co/w7FSRsQ/skills.png" className="nav-icon"/>
+                    <p className="nav-title">{this.state.language.language.menu.skills}</p>
+                  </Link>
+                </div>
               </div>
             </div>
             <div className="row body">
@@ -69,7 +87,7 @@ class App extends Component {
                   <Route exact path='/' component={() => {return <ViewAbout language={this.state.language}/>}}/>
                   <Route path='/about' component={() => {return <ViewAbout language={this.state.language}/>}}/>
                   <Route path='/projects'  component={() => {return <ViewProjects language={this.state.language}/>}}/>
-                  <Route path='/skills' component={ViewSkills}/>
+                  <Route path='/skills' component={() => {return <ViewSkills language={this.state.language}/>}}/>
                 </Switch>
               </div>
             </div>

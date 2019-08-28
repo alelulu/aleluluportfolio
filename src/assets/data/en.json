@@ -10,7 +10,7 @@
     },
     "about": {
       "title": "FRONT-END DEVELOPER",
-      "description": "I'm looking forward to become a great web developer, puting part of my soul in every line of code.",
+      "description": "I'm looking forward to become a great web developer, puting a part of me in every line of code.",
       "subtitle": "You can contact me directly via:"
     },
     "projects": {
@@ -40,6 +40,10 @@
       ],
       "deploy": "Deploy",
       "repository": "Github Repository"
+    },
+    "skills": {
+      "title": "Skills",
+      "description": "These are some of the tecnologies that I've been working with since I started with web-development."
     }
   }
 }
