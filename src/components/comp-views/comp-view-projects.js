@@ -18,7 +18,7 @@ class ViewProjects extends Component{
             description={this.props.language.language.projects.projects[5].description}
             deploy={this.props.language.language.projects.deploy}
             repo={this.props.language.language.projects.repository}
-            linkdeploy="https://mexico-stores.herokuapp.com/" linkgithub="https://github.com/alelulu/generation-take-home-intern"/>
+            linkdeploy="https://expo.io/@alelulu/michivsshiba" linkgithub="https://github.com/alelulu/SCL009-tic-tac-toe"/>
           </div>
           <div className="each-project-container col-sm-12 col-md-6">
             <Project title={this.props.language.language.projects.projects[4].title} alt="Map image" src='https://i.ibb.co/pLCqryr/map.png' 
