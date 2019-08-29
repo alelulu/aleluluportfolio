@@ -9,13 +9,14 @@
 }
 
 .project-container {
-    background-color: #ffe1e0;
-    border: 1px #6dc9c9 solid;
+    background-color: #ffe9e8;
+    border: 1px #62aec5 solid;
     border-radius: 5px;
     padding: 20px;
     width: 90%;
     margin-left: 21px;
-    margin-bottom: 2rem
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 2px 0 rgba(214, 31, 92, 0.2), 0 2px 2px 0 rgba(214, 31, 92, 0.2);
 }
 
 @media (max-width: 600px) {

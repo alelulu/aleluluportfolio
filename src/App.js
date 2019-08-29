@@ -1,22 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Switch, Route } from "react-router-dom";
-import Menu from './components/comp-menu/comp-menu';
 import { Link } from 'react-router-dom';
 import ViewAbout from './components/comp-views/comp-view-about'
 import ViewProjects from './components/comp-views/comp-view-projects';
 import ViewSkills from './components/comp-views/comp-view-skills';
 import es from './assets/data/es.json'
 import en from './assets/data/en.json'
-
-
-/* if(window.language == "es"){
-  setlanguage(es)
-}
-else {
-  console.log(language)
-  setlanguage(en)
-} */
 
 class App extends Component {
   constructor(props) {
@@ -63,19 +53,19 @@ class App extends Component {
               <div className="row nav-row">
                 <div className="col-sm-4 col-md-2 btn-container">
                   <Link to="/about">
-                    <img alt="About" src="https://i.ibb.co/T1FsWfX/home.png" className="nav-icon"/>
+                    <img alt="About" src="https://i.ibb.co/VV6W74y/home.png" className="nav-icon"/>
                     <p className="nav-title">{this.state.language.language.menu.about}</p>
                   </Link>
                 </div>
                 <div className="col-sm-4 col-md-2 btn-container">
                   <Link to="/projects">
-                    <img alt="Projects" src="https://i.ibb.co/tPLBD8r/projects.png" className="nav-icon"/>
+                    <img alt="Projects" src="https://i.ibb.co/2KKPmnS/projects.png" className="nav-icon"/>
                     <p className="nav-title">{this.state.language.language.menu.projects}</p>
                   </Link>
                 </div>
                 <div className="col-sm-4 col-md-2 btn-container">
                   <Link to="/skills">
-                    <img alt="Skills" src="https://i.ibb.co/w7FSRsQ/skills.png" className="nav-icon"/>
+                    <img alt="Skills" src="https://i.ibb.co/YkMwSg4/skills.png" className="nav-icon skills-icon"/>
                     <p className="nav-title">{this.state.language.language.menu.skills}</p>
                   </Link>
                 </div>

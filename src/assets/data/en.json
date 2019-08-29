@@ -35,7 +35,11 @@
         },
         {
           "title": "Google Maps",
-          "description": "Web application that allows the user to localize stores in Mexico City. The user can also add the store to favorites and delete it."
+          "description": "Web application created as a React app that allows the user to localize stores in Mexico City. The user can also add the store to favorites and delete it."
+        },
+        {
+          "title": "Michi vs Shiba",
+          "description": "Smartphone application created with React Native based on the \"Tic tac toe\" game with a cat vs dog version."
         }
       ],
       "deploy": "Deploy",

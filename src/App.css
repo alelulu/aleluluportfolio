@@ -4,7 +4,7 @@
 
 .window-content {
   width: 100%;
-  margin-top: 7%;
+  margin-top: 4%;
   margin-bottom: 4%;
   min-height: 70vh;
   position: relative;
@@ -12,7 +12,7 @@
   border: 1px solid #dddddd;
 /*   background-image: url("./assets/img/background.png"); */
   padding: 0;
-  background-color: #ffe1e0;
+  background-color: #ffe9e8;
 }
 .window-content::before {
   content: " ";
@@ -43,6 +43,7 @@
   top: 0;
   margin: 0;
   padding: 15px;
+  border-bottom: 1px solid #cacaca;
 }
 
 .title {
@@ -101,11 +102,11 @@
 }
 
 input:checked + .slider {
-  background-color: #6dc9c9;
+  background-color: #62aec5;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #6dc9c9;
+  box-shadow: 0 0 1px #62aec5;
 }
 
 input:checked + .slider:before {
@@ -145,7 +146,32 @@ a:hover {
 }
 .btn-container {
   text-align: center;
+  width: 75px;
   margin: 0rem -1rem 1rem -1rem;
+}
+
+.nav-row {
+  text-align: center;
+}
+
+.menu-container {
+  text-align: center;
+}
+
+.nav-icon {
+  width: 25px;
+  margin-top: 17px;
+  margin-bottom: 1px;
+}
+.nav-title {
+  color: #ff6f69
+}
+.btn-container {
+  text-align: center;
+}
+.skills-icon {
+  height: 21px!;
+  width: 21px
 }
 
 @media (max-width: 600px) {

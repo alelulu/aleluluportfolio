@@ -14,25 +14,18 @@ class ViewProjects extends Component{
         </div>
         <div className="row row-to-center">
           <div className="each-project-container col-sm-12 col-md-6">
-            <Project title={this.props.language.language.projects.projects[0].title} alt="Simpsons Trivia image" src='https://i.ibb.co/Gcw0pJ9/homer.png' 
-            description={this.props.language.language.projects.projects[0].description}
+            <Project title={this.props.language.language.projects.projects[5].title} alt="Michi image" src='https://i.ibb.co/1srK4XF/michi.png' 
+            description={this.props.language.language.projects.projects[5].description}
             deploy={this.props.language.language.projects.deploy}
             repo={this.props.language.language.projects.repository}
-            linkdeploy="https://alelulu.github.io/Trivia/index.html" linkgithub="https://github.com/alelulu/Trivia"/>
+            linkdeploy="https://mexico-stores.herokuapp.com/" linkgithub="https://github.com/alelulu/generation-take-home-intern"/>
           </div>
           <div className="each-project-container col-sm-12 col-md-6">
-            <Project title={this.props.language.language.projects.projects[1].title} alt="Pokemon image" src='https://i.ibb.co/PQ2YxDX/pokeball.png' 
-            description={this.props.language.language.projects.projects[1].description}
+            <Project title={this.props.language.language.projects.projects[4].title} alt="Map image" src='https://i.ibb.co/pLCqryr/map.png' 
+            description={this.props.language.language.projects.projects[4].description}
             deploy={this.props.language.language.projects.deploy}
             repo={this.props.language.language.projects.repository}
-            linkdeploy="https://alelulu.github.io/SCL009-data-lovers/src/index.html" linkgithub="https://github.com/alelulu/SCL009-data-lovers"/>
-          </div>
-          <div className="each-project-container col-sm-12 col-md-6">
-            <Project title={this.props.language.language.projects.projects[2].title} alt="Console image" src='https://i.ibb.co/nMdzsvG/mdlinks.png' 
-            description={this.props.language.language.projects.projects[2].description}
-            deploy={this.props.language.language.projects.deploy}
-            repo={this.props.language.language.projects.repository}
-            linkdeploy="https://www.npmjs.com/package/alelulu-md-links" linkgithub="https://github.com/alelulu/SCL009-md-links"/>
+            linkdeploy="https://mexico-stores.herokuapp.com/" linkgithub="https://github.com/alelulu/generation-take-home-intern"/>
           </div>
           <div className="each-project-container col-sm-12 col-md-6">
             <Project title={this.props.language.language.projects.projects[3].title} alt="SVKH image" src='https://i.ibb.co/svCntZZ/svkh.png' 
@@ -42,11 +35,25 @@ class ViewProjects extends Component{
             linkdeploy="https://sindrome-vkh.firebaseapp.com/" linkgithub="https://github.com/alelulu/SVKH-Chile"/>
           </div>
           <div className="each-project-container col-sm-12 col-md-6">
-            <Project title={this.props.language.language.projects.projects[4].title} alt="Map image" src='https://i.ibb.co/pLCqryr/map.png' 
-            description={this.props.language.language.projects.projects[4].description}
+            <Project title={this.props.language.language.projects.projects[2].title} alt="Console image" src='https://i.ibb.co/nMdzsvG/mdlinks.png' 
+            description={this.props.language.language.projects.projects[2].description}
             deploy={this.props.language.language.projects.deploy}
             repo={this.props.language.language.projects.repository}
-            linkdeploy="https://mexico-stores.herokuapp.com/" linkgithub="https://github.com/alelulu/generation-take-home-intern"/>
+            linkdeploy="https://www.npmjs.com/package/alelulu-md-links" linkgithub="https://github.com/alelulu/SCL009-md-links"/>
+          </div>
+          <div className="each-project-container col-sm-12 col-md-6">
+            <Project title={this.props.language.language.projects.projects[1].title} alt="Pokemon image" src='https://i.ibb.co/PQ2YxDX/pokeball.png' 
+            description={this.props.language.language.projects.projects[1].description}
+            deploy={this.props.language.language.projects.deploy}
+            repo={this.props.language.language.projects.repository}
+            linkdeploy="https://alelulu.github.io/SCL009-data-lovers/src/index.html" linkgithub="https://github.com/alelulu/SCL009-data-lovers"/>
+          </div>
+          <div className="each-project-container col-sm-12 col-md-6">
+            <Project title={this.props.language.language.projects.projects[0].title} alt="Simpsons Trivia image" src='https://i.ibb.co/Gcw0pJ9/homer.png' 
+            description={this.props.language.language.projects.projects[0].description}
+            deploy={this.props.language.language.projects.deploy}
+            repo={this.props.language.language.projects.repository}
+            linkdeploy="https://alelulu.github.io/Trivia/index.html" linkgithub="https://github.com/alelulu/Trivia"/>
           </div>
         </div>
       </div>

@@ -35,7 +35,11 @@
         },
         {
           "title": "Google Maps",
-          "description": "Aplicación web que permite al usuario localizar tiendas en Ciudad de México. También podrá añadir y quitar tiendas favoritas."
+          "description": "Aplicación web creada con React que permite al usuario localizar tiendas en Ciudad de México. También podrá añadir y quitar tiendas favoritas."
+        },
+        {
+          "title": "Michi vs Shiba",
+          "description": "Aplicación para celular creada con React Native basada en el juego \"Tres en raya\" pero con versión gato vs perro."
         }
       ],
       "deploy": "Despliegue",

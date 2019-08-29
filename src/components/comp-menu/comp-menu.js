@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './comp-menu.css';
+//import './comp-menu.css';
 import Btn from '../comp-btn/comp-btn';
 import { Link } from 'react-router-dom';
 

@@ -14,7 +14,7 @@ class ViewSkills extends Component{
         <div className="row">
           <div className="col sm-4">
             <a target="_blank" rel="noopener noreferrer" href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"><i className="fab fa-html5" data-toggle="tooltip" title="HTML5"></i></a>
-            <h4 className="blue-title">HTML</h4>
+            <h4 className="blue-title">HTML 5</h4>
           </div>
           <div className="col-sm-4">
             <a target="_blank" rel="noopener noreferrer" href="https://www.javascript.com/"><i className="fab fa-js" data-toggle="tooltip" title="Javascript"></i></a>

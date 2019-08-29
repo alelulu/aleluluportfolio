@@ -4,20 +4,21 @@
 
 .view-container {
   background-image: url("../../assets/img/background.png");
-  color: #5c5c5c;
+  color: #20242a;
   width: 90%;
-  border: #6dc9c9 1px solid;
+  border: #62aec5 1px solid;
   border-radius: 8px;
   margin-bottom: 2rem;
   font-family: 'VT323', monospace;
-  font-size: 20px
+  font-size: 20px;
+  box-shadow: 0 2px 2px 0 rgba(214, 31, 92, 0.2), 0 2px 2px 0 rgba(214, 31, 92, 0.2);
 }
 .red-title {
   font-family: pix;
   color: #ff6f69;
 }
 .blue-title {
-  color: #6dc9c9;
+  color: #62aec5;
   font-family: pix;
 }
 .centering {
