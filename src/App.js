@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import { Switch, Route } from "react-router-dom";
 import { Link } from 'react-router-dom';
-import ViewAbout from './components/comp-views/comp-view-about'
+import ViewAbout from './components/comp-views/comp-view-about';
+import ViewAle from './components/comp-views/comp-view-ale'
 import ViewProjects from './components/comp-views/comp-view-projects';
 import ViewSkills from './components/comp-views/comp-view-skills';
 import es from './assets/data/es.json'
@@ -36,7 +37,7 @@ class App extends Component {
           <div className="fluid-container">
             <div className="row header navbar navbar-fixed-top">
               <div className="col col-title">
-                <h6 className="title"><img alt="cat-logo" src="https://i.ibb.co/PTYD9dS/Cat.png"/><span> ALELULU<span className="front">{this.state.language.language.header.title}</span></span></h6>
+                <Link to="/ale"><h6 className="title"><img alt="cat-logo" src="https://i.ibb.co/PTYD9dS/Cat.png"/><span> ALELULU<span className="front">{this.state.language.language.header.title}</span></span></h6></Link>
               </div>
               <div className="">
                 <span className="mr-1 lenguage">Es</span> 
@@ -76,6 +77,7 @@ class App extends Component {
                 <Switch>
                   <Route exact path='/' component={() => {return <ViewAbout language={this.state.language}/>}}/>
                   <Route path='/about' component={() => {return <ViewAbout language={this.state.language}/>}}/>
+                  <Route path='/ale' component={() => {return <ViewAle language={this.state.language}/>}}/>
                   <Route path='/projects'  component={() => {return <ViewProjects language={this.state.language}/>}}/>
                   <Route path='/skills' component={() => {return <ViewSkills language={this.state.language}/>}}/>
                 </Switch>

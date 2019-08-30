@@ -13,6 +13,43 @@
       "description": "I'm looking forward to become a great web developer, puting a part of me in every line of code.",
       "subtitle": "You can contact me directly via:"
     },
+    "ale": {
+      "title": "My interests",
+      "description": "",
+      "interests": {
+        "music": {
+          "title": "Music",
+          "description": "These are some of the many, many bands that I enjoy listening everyday.",
+          "bands": {
+            "ases": "Ases Falsos",
+            "cristobal": "Cristóbal Briceño",
+            "beatles": "The Beatles",
+            "oasis": "Oasis",
+            "strokes": "The Strokes"
+          }
+        },
+        "videogames": {
+          "title": "Videogames",
+          "description": "I've been playing videogames all my life. I can't imagine me without them.",
+          "videogames": {
+            "lol": "League of Legends",
+            "ragnarok": "Ragnarok online",
+            "overwatch": "Overwatch",
+            "pokemon": "Pokémon saga",
+            "bioshock": "Bioshock" 
+          }
+        },
+        "books": {
+          "title": "Books",
+          "description": "Lately I've been falling in love with Haruki Murakami books.",
+          "books": {
+            "kafka": "Kafka on the Shore",
+            "south": "South of the Border, West of the Sun",
+            "tokio": "Norwegian Wood"
+          }
+        }
+      }
+    },
     "projects": {
       "title": "Projects",
       "description": "These are some of my beloved projects",

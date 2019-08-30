@@ -13,6 +13,43 @@
       "description": "Busco convertirme en una gran desarrolladora web, poniendo parte de mí en cada línea de código.",
       "subtitle": "Puedes contactarme directamente a mi email:"
     },
+    "ale": {
+      "title": "Mis intereses",
+      "description": "",
+      "interests": {
+        "music": {
+          "title": "Música",
+          "description": "Estas son algunas de las muchas, muchas bandas que disfruto escuchar cada día.",
+          "bands": {
+            "ases": "Ases Falsos",
+            "cristobal": "Cristóbal Briceño",
+            "beatles": "The Beatles",
+            "oasis": "Oasis",
+            "strokes": "The Strokes"
+          }
+        },
+        "videogames": {
+          "title": "Videojuegos",
+          "description": "He jugado videojuegos toda mi vida, no puedo imaginarme sin ellos.",
+          "videogames": {
+            "lol": "League of Legends",
+            "ragnarok": "Ragnarok online",
+            "overwatch": "Overwatch",
+            "pokemon": "Saga Pokémon",
+            "bioshock": "Bioshock" 
+          }
+        },
+        "books": {
+          "title": "Libros",
+          "description": "Últimamente me he enamorado de los libros de Haruki Murakami.",
+          "books": {
+            "kafka": "Kafka en la Orilla",
+            "south": "Al sur de la frontera, al oeste del sol",
+            "tokio": "Tokio Blues"
+          }
+        }
+      }
+    },
     "projects": {
       "title": "Proyectos",
       "description": "Estos son algunos de mis queridos proyectos",
