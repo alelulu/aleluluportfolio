@@ -25,8 +25,8 @@ class ViewAle extends Component{
             <img className="like-icon" alt="broken heart" src="https://i.ibb.co/0jXLzYG/dislike.png"></img>
             <h4 className="blue-title">{this.props.language.language.ale.interests.likes.dislikes.title}</h4>
             <p>{this.props.language.language.ale.interests.likes.dislikes.dislikes.slugs}</p>
-            <p>{this.props.language.language.ale.interests.likes.dislikes.dislikes.strawberries}</p>
-            <p>{this.props.language.language.ale.interests.likes.dislikes.dislikes.luis}</p>
+            <p>{this.props.language.language.ale.interests.likes.dislikes.dislikes.spicy}</p>
+            <p>{this.props.language.language.ale.interests.likes.dislikes.dislikes.animal}</p>
           </div>
         </div>
       </div>
