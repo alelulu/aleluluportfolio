@@ -15,37 +15,23 @@
     },
     "ale": {
       "title": "My interests",
-      "description": "",
+      "description": "I love to spend time with my cats or reading a book. Also I really enjoy playing videogames or watching anime.",
       "interests": {
-        "music": {
-          "title": "Music",
-          "description": "These are some of the many, many bands that I enjoy listening everyday.",
-          "bands": {
-            "ases": "Ases Falsos",
-            "cristobal": "Cristóbal Briceño",
+        "likes": {
+          "title": "I like",
+          "likes": {
+            "cats": "Cats",
+            "avocado": "Avocado",
             "beatles": "The Beatles",
-            "oasis": "Oasis",
-            "strokes": "The Strokes"
-          }
-        },
-        "videogames": {
-          "title": "Videogames",
-          "description": "I've been playing videogames all my life. I can't imagine me without them.",
-          "videogames": {
-            "lol": "League of Legends",
-            "ragnarok": "Ragnarok online",
-            "overwatch": "Overwatch",
-            "pokemon": "Pokémon saga",
-            "bioshock": "Bioshock" 
-          }
-        },
-        "books": {
-          "title": "Books",
-          "description": "Lately I've been falling in love with Haruki Murakami books.",
-          "books": {
-            "kafka": "Kafka on the Shore",
-            "south": "South of the Border, West of the Sun",
-            "tokio": "Norwegian Wood"
+            "memes": "Memes"
+            },
+          "dislikes":{
+            "title": "I dislike",
+            "dislikes": {
+              "slugs": "Slugs",
+              "strawberries": "Strawberries",
+              "luis": "Luis Jara"
+            }
           }
         }
       }

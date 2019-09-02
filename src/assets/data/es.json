@@ -15,37 +15,23 @@
     },
     "ale": {
       "title": "Mis intereses",
-      "description": "",
+      "description": "Me gusta pasar tiempo con mis gatos o leyendo algún libro. También disfruto mucho de jugar videojuegos y ver anime.",
       "interests": {
-        "music": {
-          "title": "Música",
-          "description": "Estas son algunas de las muchas, muchas bandas que disfruto escuchar cada día.",
-          "bands": {
-            "ases": "Ases Falsos",
-            "cristobal": "Cristóbal Briceño",
+        "likes": {
+          "title": "Me gusta",
+          "likes": {
+            "cats": "Gatos",
+            "avocado": "Palta",
             "beatles": "The Beatles",
-            "oasis": "Oasis",
-            "strokes": "The Strokes"
-          }
-        },
-        "videogames": {
-          "title": "Videojuegos",
-          "description": "He jugado videojuegos toda mi vida, no puedo imaginarme sin ellos.",
-          "videogames": {
-            "lol": "League of Legends",
-            "ragnarok": "Ragnarok online",
-            "overwatch": "Overwatch",
-            "pokemon": "Saga Pokémon",
-            "bioshock": "Bioshock" 
-          }
-        },
-        "books": {
-          "title": "Libros",
-          "description": "Últimamente me he enamorado de los libros de Haruki Murakami.",
-          "books": {
-            "kafka": "Kafka en la Orilla",
-            "south": "Al sur de la frontera, al oeste del sol",
-            "tokio": "Tokio Blues"
+            "memes": "Memes"
+          },
+          "dislikes": {
+            "title": "No me gusta",
+            "dislikes": {
+              "slugs": "Babosas",
+              "strawberries": "Frutillas",
+              "luis": "Luis Jara"
+            }   
           }
         }
       }
