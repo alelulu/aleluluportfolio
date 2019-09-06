@@ -17,18 +17,16 @@ class ViewAbout extends Component{
             <h6 className="red-title">ale.silvasuazo@gmail.com</h6>
           </div>
         </div>
+        <h5 className="contact blue-title">{this.props.language.language.about.media}</h5>
         <div className="row media-container">
-          <div className="col-3">
+          <div className="col-4">
             <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alejandra-silva-suazo/"><i className="fab fa-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin"></i></a>
           </div>
-          <div className="col-3 centering-col">
+          <div className="col-4 centering-col">
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/alelulu"><i className="fab fa-github" data-toggle="tooltip" data-placement="top" title="Github"></i></a>
           </div>
-          <div className="col-3 centering-col">
-            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/alelulu_/"><i className="fab fa-instagram" data-toggle="tooltip" data-placement="top" title="Instagram"></i></a>
-          </div>
-          <div className="col-3 centering-col">
-            <a target="_blank" rel="noopener noreferrer" href="https://alewannacake.tumblr.com/"><i className="fab fa-tumblr-square" data-toggle="tooltip" data-placement="top" title="Tumblr"></i></a>
+          <div className="col-4 centering-col">
+            <a id="curriculum" target="_blank" rel="noopener noreferrer" href="./../../assets/curriculum/CV-Alejandra-Silva.pdf" download="curriculum"><i className="fab fas fa-file-pdf" data-toggle="tooltip" data-placement="top" title="Curriculum"></i></a>
           </div>
         </div>
       </div>
