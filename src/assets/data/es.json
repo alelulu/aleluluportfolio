@@ -59,7 +59,7 @@
         },
         {
           "title": "Google Maps",
-          "description": "Aplicación web creada con React que permite al usuario localizar tiendas en Ciudad de México. También podrá añadir y quitar tiendas favoritas."
+          "description": "Web app creada con React que permite al usuario localizar tiendas en Ciudad de México y puede añadir y quitar tiendas favoritas."
         },
         {
           "title": "Michi vs Shiba",

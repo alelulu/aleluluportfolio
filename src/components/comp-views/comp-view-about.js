@@ -26,7 +26,7 @@ class ViewAbout extends Component{
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/alelulu"><i className="fab fa-github" data-toggle="tooltip" data-placement="top" title="Github"></i></a>
           </div>
           <div className="col-4 centering-col">
-            <a id="curriculum" target="_blank" rel="noopener noreferrer" href="./../../assets/curriculum/CV-Alejandra-Silva.pdf" download="curriculum"><i className="fab fas fa-file-pdf" data-toggle="tooltip" data-placement="top" title="Curriculum"></i></a>
+            <a id="curriculum" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1v-eoMDURIj0sr0Wt_6Zyl9dK0_Nc_Rw7/view?usp=sharing"><i className="fab fas fa-file-pdf" data-toggle="tooltip" data-placement="top" title="Curriculum"></i></a>
           </div>
         </div>
       </div>

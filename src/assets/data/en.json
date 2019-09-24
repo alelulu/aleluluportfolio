@@ -10,7 +10,7 @@
     },
     "about": {
       "title": "FRONT-END DEVELOPER",
-      "description": "I'm looking forward to become a great web developer, puting a part of me in every line of code.",
+      "description": "I'm looking forward to become a great web developer, putting a part of me in every line of code.",
       "subtitle": "You can contact me directly via:",
       "media": "Click to visit my media or download my curriculum:"
     },
@@ -59,7 +59,7 @@
         },
         {
           "title": "Google Maps",
-          "description": "Web application created as a React app that allows the user to localize stores in Mexico City. The user can also add the store to favorites and delete it."
+          "description": "React web app that allows the user to localize stores in Mexico City and add the store to favorites and delete it."
         },
         {
           "title": "Michi vs Shiba",
