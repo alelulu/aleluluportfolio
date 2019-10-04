@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './comp-img.css';
+import Ale from '../../assets/img/lale.png'
 
 class Img extends Component{
   render(){
@@ -7,7 +8,7 @@ class Img extends Component{
       <div className="img-container container">
         <div className="row">
           <div className="col">
-            <img id="avatar-img" src="https://i.ibb.co/Q99yp60/lale.png" alt="Foto Ale"/>
+            <img id="avatar-img" src={Ale} alt="Foto Ale"/>
           </div>
         </div>
       </div>

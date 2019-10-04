@@ -19,14 +19,17 @@ class ViewAbout extends Component{
         </div>
         <h5 className="contact blue-title">{this.props.language.language.about.media}</h5>
         <div className="row media-container">
-          <div className="col-4">
+          <div className="col">
             <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alejandra-silva-suazo/"><i className="fab fa-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin"></i></a>
           </div>
-          <div className="col-4 centering-col">
+          <div className="col centering-col">
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/alelulu"><i className="fab fa-github" data-toggle="tooltip" data-placement="top" title="Github"></i></a>
           </div>
-          <div className="col-4 centering-col">
-            <a id="curriculum" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1v-eoMDURIj0sr0Wt_6Zyl9dK0_Nc_Rw7/view?usp=sharing"><i className="fab fas fa-file-pdf" data-toggle="tooltip" data-placement="top" title="Curriculum"></i></a>
+          <div className="col centering-col">
+            <a id="curriculum" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1xUEkvPAUn5V5APFXUhlt-sipgn9TE_0F/view?usp=sharing"><i className="fab fas fa-file-pdf" data-toggle="tooltip" data-placement="top" title="Curriculum"></i></a>
+          </div>
+          <div className="col centering-col">
+            <a id="curriculum" target="_blank" rel="noopener noreferrer" href="https://app.talento.laboratoria.la/profile/MzcDVGGTKidxQT2N2tcn51Sp7HD3"><i className="fab fas fa-laptop-code" data-toggle="tooltip" data-placement="top" title="Curriculum"></i></a>
           </div>
         </div>
       </div>

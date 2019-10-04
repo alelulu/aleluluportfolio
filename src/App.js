@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
 import './App.css';
 import { Switch, Route } from "react-router-dom";
 import { Link } from 'react-router-dom';
