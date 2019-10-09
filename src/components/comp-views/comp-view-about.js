@@ -20,16 +20,16 @@ class ViewAbout extends Component{
         <h5 className="contact blue-title">{this.props.language.language.about.media}</h5>
         <div className="row media-container">
           <div className="col">
-            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alejandra-silva-suazo/"><i className="fab fa-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alejandra-silva-suazo/"><i className="fab fa-linkedin about-icon" data-toggle="tooltip" data-placement="top" title="Linkedin"></i></a>
           </div>
           <div className="col centering-col">
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/alelulu"><i className="fab fa-github" data-toggle="tooltip" data-placement="top" title="Github"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/alelulu"><i className="fab fa-github about-icon" data-toggle="tooltip" data-placement="top" title="Github"></i></a>
           </div>
           <div className="col centering-col">
-            <a id="curriculum" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1xUEkvPAUn5V5APFXUhlt-sipgn9TE_0F/view?usp=sharing"><i className="fab fas fa-file-pdf" data-toggle="tooltip" data-placement="top" title="Curriculum"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://app.talento.laboratoria.la/profile/MzcDVGGTKidxQT2N2tcn51Sp7HD3"><i className="fab fas fa-laptop-code about-icon" data-toggle="tooltip" data-placement="top" title="App de Talento Laboratoria"></i></a>
           </div>
           <div className="col centering-col">
-            <a id="curriculum" target="_blank" rel="noopener noreferrer" href="https://app.talento.laboratoria.la/profile/MzcDVGGTKidxQT2N2tcn51Sp7HD3"><i className="fab fas fa-laptop-code" data-toggle="tooltip" data-placement="top" title="Curriculum"></i></a>
+            <a id="curriculum" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1xUEkvPAUn5V5APFXUhlt-sipgn9TE_0F/view?usp=sharing"><i className="fab fas fa-file-pdf about-icon" data-toggle="tooltip" data-placement="top" title="Currículum"></i></a>
           </div>
         </div>
       </div>
